@@ -41,11 +41,13 @@ class ProjectsSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 32),
-        Wrap(
-          spacing: 24,
-          runSpacing: 24,
-          alignment: WrapAlignment.start,
-          children: _projects.map((p) => ProjectCard(project: p)).toList(),
+        Center(
+          child: Wrap(
+            spacing: 24,
+            runSpacing: 24,
+            alignment: WrapAlignment.center,
+            children: _projects.map((p) => ProjectCard(project: p)).toList(),
+          ),
         ),
       ],
     );

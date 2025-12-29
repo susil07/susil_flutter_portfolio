@@ -19,7 +19,7 @@ class SectionContainer extends StatelessWidget {
       width: double.infinity,
       color: backgroundColor,
       child: Align(
-        alignment: Alignment.centerLeft,
+        alignment: Alignment.topCenter,
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 1100),
           child: Padding(

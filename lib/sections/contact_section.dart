@@ -58,16 +58,6 @@ class ContactSection extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: 100),
-        const Divider(),
-        const SizedBox(height: 24),
-        Text(
-          "© 2024 Susil Kumar Dora. Built with Flutter.",
-          style: TextStyle(
-            color: Theme.of(context).textTheme.bodySmall?.color?.withOpacity(0.5),
-            fontSize: 14,
-          ),
-        ),
       ],
     );
   }
