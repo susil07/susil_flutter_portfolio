@@ -23,7 +23,7 @@ class SectionContainer extends StatelessWidget {
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 1100),
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 80.0),
+            padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 56.0),
             child: child,
           ),
         ),

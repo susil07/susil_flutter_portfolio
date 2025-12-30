@@ -41,17 +41,17 @@ class ContactSection extends StatelessWidget {
                    _ContactButton(
                     icon: Icons.email_outlined,
                     label: "Say Hello",
-                    onTap: () => _launchUrl("mailto:susil@example.com"),
+                    onTap: () => _launchUrl("mailto:susilkumardora86@gmail.com"),
                   ),
                    _ContactButton(
                     icon: FontAwesomeIcons.linkedinIn,
                     label: "LinkedIn",
-                    onTap: () => _launchUrl("https://linkedin.com/in/susil"),
+                    onTap: () => _launchUrl("https://www.linkedin.com/in/susil-kumar-dora-7957361b4/"),
                   ),
                    _ContactButton(
                     icon: FontAwesomeIcons.github,
                     label: "GitHub",
-                    onTap: () => _launchUrl("https://github.com/susil"),
+                    onTap: () => _launchUrl("https://github.com/susil07"),
                   ),
                 ],
               ),

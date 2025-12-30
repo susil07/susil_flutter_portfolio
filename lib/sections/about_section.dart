@@ -16,15 +16,23 @@ class AboutSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 24),
-        Text(
-          "I am a passionate Flutter developer with over 3 years of experience building cross-platform applications. My journey started with native Android development before falling in love with Flutter's declarative UI and hot reload capabilities.",
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16, height: 1.6),
-        ),
+       Text(
+  "I am a Flutter developer with over 3.6+ years of experience building high-quality cross-platform mobile applications and web applications. I focus on creating reliable, performant apps with a strong emphasis on user experience and code quality.",
+  style: Theme.of(context)
+      .textTheme
+      .bodyLarge
+      ?.copyWith(fontSize: 16, height: 1.6),
+),
+
         const SizedBox(height: 16),
-        Text(
-          "I specialize in creating clean, maintainable code architectures and pixel-perfect UIs. Whether it's a startup MVP or a complex enterprise app, I focus on delivering seamless user experiences.",
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16, height: 1.6),
-        ),
+       Text(
+  "I specialize in building scalable applications using clean architecture and robust state management. My approach emphasizes maintainable, testable code and pixel-perfect UI implementation for both startup products and enterprise-scale applications.",
+  style: Theme.of(context)
+      .textTheme
+      .bodyLarge
+      ?.copyWith(fontSize: 16, height: 1.6),
+),
+
       ],
     );
   }

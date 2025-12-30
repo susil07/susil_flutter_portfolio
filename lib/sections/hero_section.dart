@@ -14,7 +14,7 @@ class HeroSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          "Susil Kumar Dora",
+          "Hi i'm ,Susil Kumar Dora",
           textAlign: TextAlign.left,
           style: Theme.of(context).textTheme.displayMedium?.copyWith(
             fontWeight: FontWeight.w700,
@@ -37,7 +37,7 @@ class HeroSection extends StatelessWidget {
         ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 600),
           child: Text(
-            "Building high-quality mobile and web applications with a focus on UX, performance, and clean architecture.",
+            "Building high-quality mobile and web applications with a strong focus on UX, performance, clean architecture, and scalable, maintainable state management.",
             textAlign: TextAlign.left,
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(
               fontSize: 15,

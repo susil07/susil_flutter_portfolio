@@ -20,7 +20,7 @@ class MobileDrawer extends StatelessWidget {
               ),
             ),
           ),
-          ...['Hero', 'About', 'Services', 'Projects', 'Contact'].map((item) {
+          ...['About', 'Services', 'Projects', 'Contact'].map((item) {
             return ListTile(
               title: Text(item),
               onTap: () {

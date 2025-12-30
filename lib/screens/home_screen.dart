@@ -27,7 +27,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final Map<String, GlobalKey> _sectionKeys = {
-    'Hero': GlobalKey(),
+    // 'Hero': GlobalKey(),
     'About': GlobalKey(),
     'Services': GlobalKey(),
     'Projects': GlobalKey(),
@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     "© 2024 Susil Kumar Dora. Built with Flutter.",
                     style: TextStyle(
-                      color: Theme.of(context).textTheme.bodySmall?.color?.withOpacity(0.5),
+                      color: Theme.of(context).textTheme.bodySmall?.color?.withValues(alpha: .5),
                       fontSize: 14,
                     ),
                   ),
