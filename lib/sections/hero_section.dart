@@ -14,7 +14,7 @@ class HeroSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          "Hi i'm ,Susil Kumar Dora",
+          "Hi i'm , Susil Kumar Dora",
           textAlign: TextAlign.left,
           style: Theme.of(context).textTheme.displayMedium?.copyWith(
             fontWeight: FontWeight.w700,
