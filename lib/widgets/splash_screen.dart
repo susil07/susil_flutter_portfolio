@@ -30,8 +30,8 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Image.asset(
           imagePath,
-          fit: BoxFit.contain,
-          width: isMobile ? 300 : 600, // Adjust size as needed
+          fit: BoxFit.fill,
+          // width: isMobile ? 300 : 600, // Adjust size as needed
         ),
       ),
     );
